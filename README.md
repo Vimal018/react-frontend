@@ -62,6 +62,3 @@ src/
 ## License
 
 This project is for demonstration purposes as part of the SeaSalus internship assignment.
-
-Do you want me to do that?
-```
