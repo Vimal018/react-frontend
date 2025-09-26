@@ -1,73 +1,67 @@
-# Welcome to your Lovable project
+# SeaSalus Internship Assignment Project
 
-## Project info
+This project is a recreation of the given page design assigned as part of the internship selection process at **SeaSalus Maritime Pvt. Ltd.**. It is built using **React.js** with **Tailwind CSS** for styling, ensuring the page is interactive and responsive.
 
-**URL**: https://lovable.dev/projects/7983a958-ca71-4b44-9955-3506193fed30
+## Features
 
-## How can I edit this code?
+- Fully responsive design
+- Interactive elements as per the provided design
+- Built using React.js functional components
+- Styled with Tailwind CSS
 
-There are several ways of editing your application.
+## Installation
 
-**Use Lovable**
+To run the project locally:
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/7983a958-ca71-4b44-9955-3506193fed30) and start prompting.
+1. Clone the repository:
 
-Changes made via Lovable will be committed automatically to this repo.
+```bash
+git clone YOUR_GITHUB_LINK_HERE
+````
 
-**Use your preferred IDE**
+2. Navigate to the project directory:
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```bash
+cd project-directory
 ```
 
-**Edit a file directly in GitHub**
+3. Install dependencies:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```bash
+npm install
+```
 
-**Use GitHub Codespaces**
+4. Start the development server:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```bash
+npm start
+```
 
-## What technologies are used for this project?
+The project will run at `http://localhost:3000`.
 
-This project is built with:
+## Folder Structure
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+```
+src/
+├── components/       # React components
+├── pages/            # Individual pages
+├── App.tsx           # Main app component
+├── index.tsx         # Entry point
+└── styles/           # Tailwind CSS imports and custom styles
+```
 
-## How can I deploy this project?
+## Technologies Used
 
-Simply open [Lovable](https://lovable.dev/projects/7983a958-ca71-4b44-9955-3506193fed30) and click on Share -> Publish.
+* [React.js](https://reactjs.org/)
+* [Tailwind CSS](https://tailwindcss.com/)
+* JavaScript / TypeScript (depending on your implementation)
+* HTML5 & CSS3
 
-## Can I connect a custom domain to my Lovable project?
 
-Yes, you can!
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## License
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+This project is for demonstration purposes as part of the SeaSalus internship assignment.
+
+Do you want me to do that?
+```
