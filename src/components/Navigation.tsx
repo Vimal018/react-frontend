@@ -28,25 +28,33 @@ const Navigation = () => {
             <span className="text-xl font-semibold text-foreground">Innovatech</span>
           </Link>
 
-          {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-8">
-            {navItems.map((item) => (
-              <Link
-                key={item.name}
-                to={item.path}
-                className={`text-sm font-medium transition-smooth ${
-                  isActive(item.path)
-                    ? "text-primary"
-                    : "text-muted-foreground hover:text-foreground"
-                }`}
-              >
-                {item.name}
-              </Link>
-            ))}
-            <Button variant="default" className="shadow-hero">
-              Get Started
-            </Button>
-          </div>
+            {/* Desktop Navigation */}
+            <div className="hidden md:flex items-center justify-between flex-1">
+              
+              {/* Nav items in the center */}
+              <div className="flex space-x-12 justify-center flex-1 mx-12">
+                {navItems.map((item) => (
+                  <Link
+                    key={item.name}
+                    to={item.path}
+                    className={`text-sm font-medium transition-smooth ${
+                      isActive(item.path)
+                        ? "text-primary"
+                        : "text-muted-foreground hover:text-foreground"
+                    }`}
+                  >
+                    {item.name}
+                  </Link>
+                ))}
+              </div>
+
+              {/* Get Started button on the right */}
+              <div>
+                <Button variant="default" className="shadow-hero">
+                  Get Started
+                </Button>
+              </div>
+            </div>
 
           {/* Mobile menu button */}
           <div className="md:hidden">
