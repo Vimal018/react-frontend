@@ -75,8 +75,14 @@ const Contact = () => {
             </div>
             
             {/* Right Column - Contact Form */}
-            <div>
-              <Card className="shadow-card">
+            <div className="flex flex-col h-full">
+              <Card
+                  className="
+                    shadow-card h-full flex flex-col
+                    transition-all duration-300          
+                    hover:shadow-xl hover:-translate-y-1  
+                  "
+                >
                 <CardContent className="p-8">
                   <form className="space-y-6">
                     <div>
